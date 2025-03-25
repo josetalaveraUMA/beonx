@@ -1,0 +1,19 @@
+[2025-03-21T12:13:27.252+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-03-21T12:13:27.290+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: download_and_upload_rates.download_file_5 manual__2025-03-21T12:13:26.129888+00:00 [queued]>
+[2025-03-21T12:13:27.314+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: download_and_upload_rates.download_file_5 manual__2025-03-21T12:13:26.129888+00:00 [queued]>
+[2025-03-21T12:13:27.315+0000] {taskinstance.py:2867} INFO - Starting attempt 1 of 2
+[2025-03-21T12:13:27.345+0000] {taskinstance.py:2890} INFO - Executing <Task(PythonOperator): download_file_5> on 2025-03-21 12:13:26.129888+00:00
+[2025-03-21T12:13:27.359+0000] {logging_mixin.py:190} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70 DeprecationWarning: This process (pid=203) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2025-03-21T12:13:27.361+0000] {standard_task_runner.py:72} INFO - Started process 210 to run task
+[2025-03-21T12:13:27.361+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'download_and_upload_rates', 'download_file_5', 'manual__2025-03-21T12:13:26.129888+00:00', '--job-id', '15', '--raw', '--subdir', 'DAGS_FOLDER/main.py', '--cfg-path', '/tmp/tmp1z78jbs3']
+[2025-03-21T12:13:27.364+0000] {standard_task_runner.py:105} INFO - Job 15: Subtask download_file_5
+[2025-03-21T12:13:27.403+0000] {logging_mixin.py:190} WARNING - /home/***/.local/lib/python3.12/site-packages/***/settings.py:209 DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+[2025-03-21T12:13:27.467+0000] {task_command.py:467} INFO - Running <TaskInstance: download_and_upload_rates.download_file_5 manual__2025-03-21T12:13:26.129888+00:00 [running]> on host b75a64e331db
+[2025-03-21T12:13:27.647+0000] {taskinstance.py:3134} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='download_and_upload_rates' AIRFLOW_CTX_TASK_ID='download_file_5' AIRFLOW_CTX_EXECUTION_DATE='2025-03-21T12:13:26.129888+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-03-21T12:13:26.129888+00:00'
+[2025-03-21T12:13:27.650+0000] {taskinstance.py:732} INFO - ::endgroup::
+[2025-03-21T12:13:28.678+0000] {logging_mixin.py:190} INFO - Archivo descargado en: storage/2025-03-21/rates_2025-03-26.csv
+[2025-03-21T12:13:28.679+0000] {python.py:240} INFO - Done. Returned value was: None
+[2025-03-21T12:13:28.689+0000] {taskinstance.py:341} INFO - ::group::Post task execution logs
+[2025-03-21T12:13:28.689+0000] {taskinstance.py:353} INFO - Marking task as SUCCESS. dag_id=download_and_upload_rates, task_id=download_file_5, run_id=manual__2025-03-21T12:13:26.129888+00:00, execution_date=20250321T121326, start_date=20250321T121327, end_date=20250321T121328
+[2025-03-21T12:13:28.765+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-03-21T12:13:28.777+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

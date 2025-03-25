@@ -1,0 +1,189 @@
+[2025-03-21T11:40:12.950+0000] {processor.py:186} INFO - Started process (PID=70) to work on /opt/airflow/dags/main.py
+[2025-03-21T11:40:12.953+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2025-03-21T11:40:12.958+0000] {logging_mixin.py:190} INFO - [2025-03-21T11:40:12.958+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2025-03-21T11:40:13.008+0000] {processor.py:925} INFO - DAG(s) 'download_and_upload_rates' retrieved from /opt/airflow/dags/main.py
+[2025-03-21T11:40:13.402+0000] {logging_mixin.py:190} INFO - [2025-03-21T11:40:13.402+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-21T11:40:13.456+0000] {logging_mixin.py:190} INFO - [2025-03-21T11:40:13.456+0000] {dag.py:4180} INFO - Setting next_dagrun for download_and_upload_rates to 2025-03-21 00:00:00+00:00, run_after=2025-03-22 00:00:00+00:00
+[2025-03-21T11:40:13.557+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/main.py took 0.620 seconds
+[2025-03-21T11:40:44.273+0000] {processor.py:186} INFO - Started process (PID=134) to work on /opt/airflow/dags/main.py
+[2025-03-21T11:40:44.274+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2025-03-21T11:40:44.277+0000] {logging_mixin.py:190} INFO - [2025-03-21T11:40:44.277+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2025-03-21T11:40:44.300+0000] {processor.py:925} INFO - DAG(s) 'download_and_upload_rates' retrieved from /opt/airflow/dags/main.py
+[2025-03-21T11:40:44.464+0000] {logging_mixin.py:190} INFO - [2025-03-21T11:40:44.463+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-21T11:40:44.492+0000] {logging_mixin.py:190} INFO - [2025-03-21T11:40:44.492+0000] {dag.py:4180} INFO - Setting next_dagrun for download_and_upload_rates to 2025-03-21 00:00:00+00:00, run_after=2025-03-22 00:00:00+00:00
+[2025-03-21T11:40:44.518+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/main.py took 0.251 seconds
+[2025-03-21T12:12:30.368+0000] {processor.py:186} INFO - Started process (PID=167) to work on /opt/airflow/dags/main.py
+[2025-03-21T12:12:30.369+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2025-03-21T12:12:30.373+0000] {logging_mixin.py:190} INFO - [2025-03-21T12:12:30.372+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2025-03-21T12:12:30.437+0000] {processor.py:925} INFO - DAG(s) 'download_and_upload_rates' retrieved from /opt/airflow/dags/main.py
+[2025-03-21T12:12:30.465+0000] {logging_mixin.py:190} INFO - [2025-03-21T12:12:30.465+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-21T12:12:30.501+0000] {logging_mixin.py:190} INFO - [2025-03-21T12:12:30.501+0000] {dag.py:4180} INFO - Setting next_dagrun for download_and_upload_rates to 2025-03-20 00:00:00+00:00, run_after=2025-03-21 00:00:00+00:00
+[2025-03-21T12:12:30.530+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/main.py took 0.171 seconds
+[2025-03-21T12:13:00.737+0000] {processor.py:186} INFO - Started process (PID=172) to work on /opt/airflow/dags/main.py
+[2025-03-21T12:13:00.738+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2025-03-21T12:13:00.740+0000] {logging_mixin.py:190} INFO - [2025-03-21T12:13:00.740+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2025-03-21T12:13:00.772+0000] {processor.py:925} INFO - DAG(s) 'download_and_upload_rates' retrieved from /opt/airflow/dags/main.py
+[2025-03-21T12:13:01.035+0000] {logging_mixin.py:190} INFO - [2025-03-21T12:13:01.035+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-21T12:13:01.059+0000] {logging_mixin.py:190} INFO - [2025-03-21T12:13:01.059+0000] {dag.py:4180} INFO - Setting next_dagrun for download_and_upload_rates to 2025-03-20 00:00:00+00:00, run_after=2025-03-21 00:00:00+00:00
+[2025-03-21T12:13:01.080+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/main.py took 0.350 seconds
+[2025-03-21T12:13:31.198+0000] {processor.py:186} INFO - Started process (PID=219) to work on /opt/airflow/dags/main.py
+[2025-03-21T12:13:31.199+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2025-03-21T12:13:31.205+0000] {logging_mixin.py:190} INFO - [2025-03-21T12:13:31.205+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2025-03-21T12:13:31.234+0000] {processor.py:925} INFO - DAG(s) 'download_and_upload_rates' retrieved from /opt/airflow/dags/main.py
+[2025-03-21T12:13:31.353+0000] {logging_mixin.py:190} INFO - [2025-03-21T12:13:31.353+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-21T12:13:31.374+0000] {logging_mixin.py:190} INFO - [2025-03-21T12:13:31.373+0000] {dag.py:4180} INFO - Setting next_dagrun for download_and_upload_rates to 2025-03-21 00:00:00+00:00, run_after=2025-03-22 00:00:00+00:00
+[2025-03-21T12:13:31.404+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/main.py took 0.214 seconds
+[2025-03-21T12:14:01.605+0000] {processor.py:186} INFO - Started process (PID=224) to work on /opt/airflow/dags/main.py
+[2025-03-21T12:14:01.606+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2025-03-21T12:14:01.609+0000] {logging_mixin.py:190} INFO - [2025-03-21T12:14:01.609+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2025-03-21T12:14:01.631+0000] {processor.py:925} INFO - DAG(s) 'download_and_upload_rates' retrieved from /opt/airflow/dags/main.py
+[2025-03-21T12:14:01.757+0000] {logging_mixin.py:190} INFO - [2025-03-21T12:14:01.757+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-21T12:14:01.780+0000] {logging_mixin.py:190} INFO - [2025-03-21T12:14:01.780+0000] {dag.py:4180} INFO - Setting next_dagrun for download_and_upload_rates to 2025-03-21 00:00:00+00:00, run_after=2025-03-22 00:00:00+00:00
+[2025-03-21T12:14:01.816+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/main.py took 0.217 seconds
+[2025-03-21T12:14:32.061+0000] {processor.py:186} INFO - Started process (PID=229) to work on /opt/airflow/dags/main.py
+[2025-03-21T12:14:32.063+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2025-03-21T12:14:32.067+0000] {logging_mixin.py:190} INFO - [2025-03-21T12:14:32.066+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2025-03-21T12:14:32.104+0000] {processor.py:925} INFO - DAG(s) 'download_and_upload_rates' retrieved from /opt/airflow/dags/main.py
+[2025-03-21T12:14:32.240+0000] {logging_mixin.py:190} INFO - [2025-03-21T12:14:32.240+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-21T12:14:32.264+0000] {logging_mixin.py:190} INFO - [2025-03-21T12:14:32.264+0000] {dag.py:4180} INFO - Setting next_dagrun for download_and_upload_rates to 2025-03-21 00:00:00+00:00, run_after=2025-03-22 00:00:00+00:00
+[2025-03-21T12:14:32.285+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/main.py took 0.236 seconds
+[2025-03-21T12:15:02.727+0000] {processor.py:186} INFO - Started process (PID=255) to work on /opt/airflow/dags/main.py
+[2025-03-21T12:15:02.728+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2025-03-21T12:15:02.731+0000] {logging_mixin.py:190} INFO - [2025-03-21T12:15:02.730+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2025-03-21T12:15:02.755+0000] {processor.py:925} INFO - DAG(s) 'download_and_upload_rates' retrieved from /opt/airflow/dags/main.py
+[2025-03-21T12:15:02.881+0000] {logging_mixin.py:190} INFO - [2025-03-21T12:15:02.880+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-21T12:15:02.904+0000] {logging_mixin.py:190} INFO - [2025-03-21T12:15:02.904+0000] {dag.py:4180} INFO - Setting next_dagrun for download_and_upload_rates to 2025-03-21 00:00:00+00:00, run_after=2025-03-22 00:00:00+00:00
+[2025-03-21T12:15:02.923+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/main.py took 0.202 seconds
+[2025-03-21T12:15:33.141+0000] {processor.py:186} INFO - Started process (PID=260) to work on /opt/airflow/dags/main.py
+[2025-03-21T12:15:33.142+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2025-03-21T12:15:33.145+0000] {logging_mixin.py:190} INFO - [2025-03-21T12:15:33.144+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2025-03-21T12:15:33.168+0000] {processor.py:925} INFO - DAG(s) 'download_and_upload_rates' retrieved from /opt/airflow/dags/main.py
+[2025-03-21T12:15:33.317+0000] {logging_mixin.py:190} INFO - [2025-03-21T12:15:33.317+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-21T12:15:33.340+0000] {logging_mixin.py:190} INFO - [2025-03-21T12:15:33.340+0000] {dag.py:4180} INFO - Setting next_dagrun for download_and_upload_rates to 2025-03-21 00:00:00+00:00, run_after=2025-03-22 00:00:00+00:00
+[2025-03-21T12:15:33.362+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/main.py took 0.228 seconds
+[2025-03-21T12:16:03.592+0000] {processor.py:186} INFO - Started process (PID=265) to work on /opt/airflow/dags/main.py
+[2025-03-21T12:16:03.593+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2025-03-21T12:16:03.597+0000] {logging_mixin.py:190} INFO - [2025-03-21T12:16:03.596+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2025-03-21T12:16:03.625+0000] {processor.py:925} INFO - DAG(s) 'download_and_upload_rates' retrieved from /opt/airflow/dags/main.py
+[2025-03-21T12:16:03.760+0000] {logging_mixin.py:190} INFO - [2025-03-21T12:16:03.760+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-21T12:16:03.783+0000] {logging_mixin.py:190} INFO - [2025-03-21T12:16:03.782+0000] {dag.py:4180} INFO - Setting next_dagrun for download_and_upload_rates to 2025-03-21 00:00:00+00:00, run_after=2025-03-22 00:00:00+00:00
+[2025-03-21T12:16:03.803+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/main.py took 0.217 seconds
+[2025-03-21T12:16:34.045+0000] {processor.py:186} INFO - Started process (PID=270) to work on /opt/airflow/dags/main.py
+[2025-03-21T12:16:34.046+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2025-03-21T12:16:34.048+0000] {logging_mixin.py:190} INFO - [2025-03-21T12:16:34.048+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2025-03-21T12:16:34.072+0000] {processor.py:925} INFO - DAG(s) 'download_and_upload_rates' retrieved from /opt/airflow/dags/main.py
+[2025-03-21T12:16:34.213+0000] {logging_mixin.py:190} INFO - [2025-03-21T12:16:34.213+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-21T12:16:34.235+0000] {logging_mixin.py:190} INFO - [2025-03-21T12:16:34.235+0000] {dag.py:4180} INFO - Setting next_dagrun for download_and_upload_rates to 2025-03-21 00:00:00+00:00, run_after=2025-03-22 00:00:00+00:00
+[2025-03-21T12:16:34.255+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/main.py took 0.217 seconds
+[2025-03-21T12:17:04.387+0000] {processor.py:186} INFO - Started process (PID=275) to work on /opt/airflow/dags/main.py
+[2025-03-21T12:17:04.388+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2025-03-21T12:17:04.390+0000] {logging_mixin.py:190} INFO - [2025-03-21T12:17:04.390+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2025-03-21T12:17:04.415+0000] {processor.py:925} INFO - DAG(s) 'download_and_upload_rates' retrieved from /opt/airflow/dags/main.py
+[2025-03-21T12:17:04.541+0000] {logging_mixin.py:190} INFO - [2025-03-21T12:17:04.541+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-21T12:17:04.563+0000] {logging_mixin.py:190} INFO - [2025-03-21T12:17:04.563+0000] {dag.py:4180} INFO - Setting next_dagrun for download_and_upload_rates to 2025-03-21 00:00:00+00:00, run_after=2025-03-22 00:00:00+00:00
+[2025-03-21T12:17:04.598+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/main.py took 0.218 seconds
+[2025-03-21T12:17:34.824+0000] {processor.py:186} INFO - Started process (PID=280) to work on /opt/airflow/dags/main.py
+[2025-03-21T12:17:34.825+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2025-03-21T12:17:34.828+0000] {logging_mixin.py:190} INFO - [2025-03-21T12:17:34.827+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2025-03-21T12:17:34.855+0000] {processor.py:925} INFO - DAG(s) 'download_and_upload_rates' retrieved from /opt/airflow/dags/main.py
+[2025-03-21T12:17:34.992+0000] {logging_mixin.py:190} INFO - [2025-03-21T12:17:34.991+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-21T12:17:35.017+0000] {logging_mixin.py:190} INFO - [2025-03-21T12:17:35.017+0000] {dag.py:4180} INFO - Setting next_dagrun for download_and_upload_rates to 2025-03-21 00:00:00+00:00, run_after=2025-03-22 00:00:00+00:00
+[2025-03-21T12:17:35.039+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/main.py took 0.221 seconds
+[2025-03-21T12:18:05.310+0000] {processor.py:186} INFO - Started process (PID=285) to work on /opt/airflow/dags/main.py
+[2025-03-21T12:18:05.312+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2025-03-21T12:18:05.314+0000] {logging_mixin.py:190} INFO - [2025-03-21T12:18:05.314+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2025-03-21T12:18:05.344+0000] {processor.py:925} INFO - DAG(s) 'download_and_upload_rates' retrieved from /opt/airflow/dags/main.py
+[2025-03-21T12:18:05.499+0000] {logging_mixin.py:190} INFO - [2025-03-21T12:18:05.499+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-21T12:18:05.531+0000] {logging_mixin.py:190} INFO - [2025-03-21T12:18:05.531+0000] {dag.py:4180} INFO - Setting next_dagrun for download_and_upload_rates to 2025-03-21 00:00:00+00:00, run_after=2025-03-22 00:00:00+00:00
+[2025-03-21T12:18:05.555+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/main.py took 0.253 seconds
+[2025-03-21T12:18:35.745+0000] {processor.py:186} INFO - Started process (PID=290) to work on /opt/airflow/dags/main.py
+[2025-03-21T12:18:35.746+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2025-03-21T12:18:35.749+0000] {logging_mixin.py:190} INFO - [2025-03-21T12:18:35.749+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2025-03-21T12:18:35.778+0000] {processor.py:925} INFO - DAG(s) 'download_and_upload_rates' retrieved from /opt/airflow/dags/main.py
+[2025-03-21T12:18:35.904+0000] {logging_mixin.py:190} INFO - [2025-03-21T12:18:35.904+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-21T12:18:35.927+0000] {logging_mixin.py:190} INFO - [2025-03-21T12:18:35.927+0000] {dag.py:4180} INFO - Setting next_dagrun for download_and_upload_rates to 2025-03-21 00:00:00+00:00, run_after=2025-03-22 00:00:00+00:00
+[2025-03-21T12:18:35.961+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/main.py took 0.222 seconds
+[2025-03-21T12:19:06.313+0000] {processor.py:186} INFO - Started process (PID=295) to work on /opt/airflow/dags/main.py
+[2025-03-21T12:19:06.315+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2025-03-21T12:19:06.317+0000] {logging_mixin.py:190} INFO - [2025-03-21T12:19:06.317+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2025-03-21T12:19:06.346+0000] {processor.py:925} INFO - DAG(s) 'download_and_upload_rates' retrieved from /opt/airflow/dags/main.py
+[2025-03-21T12:19:06.492+0000] {logging_mixin.py:190} INFO - [2025-03-21T12:19:06.491+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-21T12:19:06.518+0000] {logging_mixin.py:190} INFO - [2025-03-21T12:19:06.517+0000] {dag.py:4180} INFO - Setting next_dagrun for download_and_upload_rates to 2025-03-21 00:00:00+00:00, run_after=2025-03-22 00:00:00+00:00
+[2025-03-21T12:19:06.562+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/main.py took 0.256 seconds
+[2025-03-21T12:19:36.690+0000] {processor.py:186} INFO - Started process (PID=300) to work on /opt/airflow/dags/main.py
+[2025-03-21T12:19:36.691+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2025-03-21T12:19:36.694+0000] {logging_mixin.py:190} INFO - [2025-03-21T12:19:36.694+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2025-03-21T12:19:36.718+0000] {processor.py:925} INFO - DAG(s) 'download_and_upload_rates' retrieved from /opt/airflow/dags/main.py
+[2025-03-21T12:19:36.854+0000] {logging_mixin.py:190} INFO - [2025-03-21T12:19:36.854+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-21T12:19:36.878+0000] {logging_mixin.py:190} INFO - [2025-03-21T12:19:36.878+0000] {dag.py:4180} INFO - Setting next_dagrun for download_and_upload_rates to 2025-03-21 00:00:00+00:00, run_after=2025-03-22 00:00:00+00:00
+[2025-03-21T12:19:36.913+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/main.py took 0.230 seconds
+[2025-03-21T12:20:07.210+0000] {processor.py:186} INFO - Started process (PID=305) to work on /opt/airflow/dags/main.py
+[2025-03-21T12:20:07.211+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2025-03-21T12:20:07.214+0000] {logging_mixin.py:190} INFO - [2025-03-21T12:20:07.213+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2025-03-21T12:20:07.243+0000] {processor.py:925} INFO - DAG(s) 'download_and_upload_rates' retrieved from /opt/airflow/dags/main.py
+[2025-03-21T12:20:07.377+0000] {logging_mixin.py:190} INFO - [2025-03-21T12:20:07.376+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-21T12:20:07.400+0000] {logging_mixin.py:190} INFO - [2025-03-21T12:20:07.399+0000] {dag.py:4180} INFO - Setting next_dagrun for download_and_upload_rates to 2025-03-21 00:00:00+00:00, run_after=2025-03-22 00:00:00+00:00
+[2025-03-21T12:20:07.425+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/main.py took 0.226 seconds
+[2025-03-21T12:21:06.105+0000] {processor.py:186} INFO - Started process (PID=167) to work on /opt/airflow/dags/main.py
+[2025-03-21T12:21:06.107+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2025-03-21T12:21:06.109+0000] {logging_mixin.py:190} INFO - [2025-03-21T12:21:06.109+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2025-03-21T12:21:06.174+0000] {processor.py:925} INFO - DAG(s) 'download_and_upload_rates' retrieved from /opt/airflow/dags/main.py
+[2025-03-21T12:21:06.745+0000] {logging_mixin.py:190} INFO - [2025-03-21T12:21:06.744+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-21T12:21:06.796+0000] {logging_mixin.py:190} INFO - [2025-03-21T12:21:06.796+0000] {dag.py:4180} INFO - Setting next_dagrun for download_and_upload_rates to 2025-03-21 00:00:00+00:00, run_after=2025-03-22 00:00:00+00:00
+[2025-03-21T12:21:06.847+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/main.py took 0.754 seconds
+[2025-03-21T12:21:37.167+0000] {processor.py:186} INFO - Started process (PID=172) to work on /opt/airflow/dags/main.py
+[2025-03-21T12:21:37.168+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2025-03-21T12:21:37.171+0000] {logging_mixin.py:190} INFO - [2025-03-21T12:21:37.171+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2025-03-21T12:21:37.228+0000] {processor.py:925} INFO - DAG(s) 'download_and_upload_rates' retrieved from /opt/airflow/dags/main.py
+[2025-03-21T12:21:37.433+0000] {logging_mixin.py:190} INFO - [2025-03-21T12:21:37.433+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-21T12:21:37.466+0000] {logging_mixin.py:190} INFO - [2025-03-21T12:21:37.466+0000] {dag.py:4180} INFO - Setting next_dagrun for download_and_upload_rates to 2025-03-21 00:00:00+00:00, run_after=2025-03-22 00:00:00+00:00
+[2025-03-21T12:21:37.510+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/main.py took 0.355 seconds
+[2025-03-21T12:23:29.275+0000] {processor.py:186} INFO - Started process (PID=167) to work on /opt/airflow/dags/main.py
+[2025-03-21T12:23:29.277+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2025-03-21T12:23:29.290+0000] {logging_mixin.py:190} INFO - [2025-03-21T12:23:29.290+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2025-03-21T12:23:29.324+0000] {processor.py:925} INFO - DAG(s) 'download_and_upload_rates' retrieved from /opt/airflow/dags/main.py
+[2025-03-21T12:23:29.543+0000] {logging_mixin.py:190} INFO - [2025-03-21T12:23:29.543+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-21T12:23:29.602+0000] {logging_mixin.py:190} INFO - [2025-03-21T12:23:29.602+0000] {dag.py:4180} INFO - Setting next_dagrun for download_and_upload_rates to 2025-03-21 00:00:00+00:00, run_after=2025-03-22 00:00:00+00:00
+[2025-03-21T12:23:29.672+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/main.py took 0.418 seconds
+[2025-03-21T12:23:59.999+0000] {processor.py:186} INFO - Started process (PID=172) to work on /opt/airflow/dags/main.py
+[2025-03-21T12:24:00.001+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2025-03-21T12:24:00.004+0000] {logging_mixin.py:190} INFO - [2025-03-21T12:24:00.004+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2025-03-21T12:24:00.032+0000] {processor.py:925} INFO - DAG(s) 'download_and_upload_rates' retrieved from /opt/airflow/dags/main.py
+[2025-03-21T12:24:00.223+0000] {logging_mixin.py:190} INFO - [2025-03-21T12:24:00.223+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-21T12:24:00.254+0000] {logging_mixin.py:190} INFO - [2025-03-21T12:24:00.253+0000] {dag.py:4180} INFO - Setting next_dagrun for download_and_upload_rates to 2025-03-21 00:00:00+00:00, run_after=2025-03-22 00:00:00+00:00
+[2025-03-21T12:24:00.282+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/main.py took 0.290 seconds
+[2025-03-21T12:24:30.606+0000] {processor.py:186} INFO - Started process (PID=177) to work on /opt/airflow/dags/main.py
+[2025-03-21T12:24:30.607+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2025-03-21T12:24:30.612+0000] {logging_mixin.py:190} INFO - [2025-03-21T12:24:30.611+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2025-03-21T12:24:30.640+0000] {processor.py:925} INFO - DAG(s) 'download_and_upload_rates' retrieved from /opt/airflow/dags/main.py
+[2025-03-21T12:24:30.824+0000] {logging_mixin.py:190} INFO - [2025-03-21T12:24:30.824+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-21T12:24:30.859+0000] {logging_mixin.py:190} INFO - [2025-03-21T12:24:30.859+0000] {dag.py:4180} INFO - Setting next_dagrun for download_and_upload_rates to 2025-03-21 00:00:00+00:00, run_after=2025-03-22 00:00:00+00:00
+[2025-03-21T12:24:30.894+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/main.py took 0.296 seconds
+[2025-03-21T12:25:02.431+0000] {processor.py:186} INFO - Started process (PID=203) to work on /opt/airflow/dags/main.py
+[2025-03-21T12:25:02.434+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2025-03-21T12:25:02.447+0000] {logging_mixin.py:190} INFO - [2025-03-21T12:25:02.446+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2025-03-21T12:25:02.557+0000] {processor.py:925} INFO - DAG(s) 'download_and_upload_rates' retrieved from /opt/airflow/dags/main.py
+[2025-03-21T12:25:03.010+0000] {logging_mixin.py:190} INFO - [2025-03-21T12:25:03.009+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-21T12:25:03.075+0000] {logging_mixin.py:190} INFO - [2025-03-21T12:25:03.075+0000] {dag.py:4180} INFO - Setting next_dagrun for download_and_upload_rates to 2025-03-21 00:00:00+00:00, run_after=2025-03-22 00:00:00+00:00
+[2025-03-21T12:25:03.149+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/main.py took 0.738 seconds
+[2025-03-21T12:25:33.455+0000] {processor.py:186} INFO - Started process (PID=208) to work on /opt/airflow/dags/main.py
+[2025-03-21T12:25:33.456+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2025-03-21T12:25:33.459+0000] {logging_mixin.py:190} INFO - [2025-03-21T12:25:33.459+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2025-03-21T12:25:33.487+0000] {processor.py:925} INFO - DAG(s) 'download_and_upload_rates' retrieved from /opt/airflow/dags/main.py
+[2025-03-21T12:25:33.683+0000] {logging_mixin.py:190} INFO - [2025-03-21T12:25:33.683+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-21T12:25:33.718+0000] {logging_mixin.py:190} INFO - [2025-03-21T12:25:33.718+0000] {dag.py:4180} INFO - Setting next_dagrun for download_and_upload_rates to 2025-03-21 00:00:00+00:00, run_after=2025-03-22 00:00:00+00:00
+[2025-03-21T12:25:33.744+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/main.py took 0.296 seconds
+[2025-03-21T12:26:03.870+0000] {processor.py:186} INFO - Started process (PID=213) to work on /opt/airflow/dags/main.py
+[2025-03-21T12:26:03.871+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2025-03-21T12:26:03.875+0000] {logging_mixin.py:190} INFO - [2025-03-21T12:26:03.875+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2025-03-21T12:26:03.915+0000] {processor.py:925} INFO - DAG(s) 'download_and_upload_rates' retrieved from /opt/airflow/dags/main.py
+[2025-03-21T12:26:04.142+0000] {logging_mixin.py:190} INFO - [2025-03-21T12:26:04.142+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-21T12:26:04.182+0000] {logging_mixin.py:190} INFO - [2025-03-21T12:26:04.181+0000] {dag.py:4180} INFO - Setting next_dagrun for download_and_upload_rates to 2025-03-21 00:00:00+00:00, run_after=2025-03-22 00:00:00+00:00
+[2025-03-21T12:26:04.212+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/main.py took 0.364 seconds
+[2025-03-21T12:26:34.304+0000] {processor.py:186} INFO - Started process (PID=218) to work on /opt/airflow/dags/main.py
+[2025-03-21T12:26:34.306+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2025-03-21T12:26:34.309+0000] {logging_mixin.py:190} INFO - [2025-03-21T12:26:34.309+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2025-03-21T12:26:34.347+0000] {processor.py:925} INFO - DAG(s) 'download_and_upload_rates' retrieved from /opt/airflow/dags/main.py
+[2025-03-21T12:26:34.542+0000] {logging_mixin.py:190} INFO - [2025-03-21T12:26:34.541+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-21T12:26:34.582+0000] {logging_mixin.py:190} INFO - [2025-03-21T12:26:34.581+0000] {dag.py:4180} INFO - Setting next_dagrun for download_and_upload_rates to 2025-03-21 00:00:00+00:00, run_after=2025-03-22 00:00:00+00:00
+[2025-03-21T12:26:34.614+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/main.py took 0.319 seconds

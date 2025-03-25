@@ -1,0 +1,90 @@
+version: '3.7'
+services:
+
+  redis:
+    image: redis:5.0.5
+    environment:
+      REDIS_HOST: redis
+      REDIS_PORT: 6379
+    ports:
+      - 6379:6379
+
+  postgres:
+    image: postgres:9.6
+    environment:
+      - POSTGRES_USER=${POSTGRES_USER}
+      - POSTGRES_PASSWORD=${POSTGRES_PASSWORD}
+      - POSTGRES_DB=${POSTGRES_DB}
+      - PGDATA=/var/lib/postgresql/data/pgdata
+    volumes:
+      - ./pgdata:/var/lib/postgresql/data/pgdata
+    logging:
+      options:
+        max-size: 10m
+        max-file: "3"
+
+  webserver:
+    build: .
+    image: custom-airflow
+    restart: always
+    depends_on:
+      - postgres
+      - redis
+    environment:
+      - LOAD_EX=${LOAD_EX}
+      - FERNET_KEY=${FERNET_KEY}
+      - EXECUTOR=${EXECUTOR}
+      - AZURE_STORAGE_ACCOUNT_NAME=${AZURE_STORAGE_ACCOUNT_NAME}
+      - AZURE_STORAGE_ACCOUNT_KEY=${AZURE_STORAGE_ACCOUNT_KEY}
+    logging:
+      options:
+        max-size: 10m
+        max-file: "3"
+    volumes:
+      - ./dags:/usr/local/airflow/dags
+      - ./config/airflow.cfg:/usr/local/airflow/airflow.cfg
+    ports:
+      - "8080:8080"
+    command: webserver
+    healthcheck:
+      test: ["CMD-SHELL", "[ -f /usr/local/airflow/airflow-webserver.pid ]"]
+      interval: 30s
+      timeout: 30s
+      retries: 3
+
+  flower:
+    image: custom-airflow
+    restart: always
+    depends_on:
+      - redis
+    environment:
+      - EXECUTOR=${EXECUTOR}
+    ports:
+      - "5555:5555"
+    command: flower
+
+  scheduler:
+    image: custom-airflow
+    restart: always
+    depends_on:
+      - webserver
+    volumes:
+      - ./dags:/usr/local/airflow/dags
+    environment:
+      - LOAD_EX=${LOAD_EX}
+      - FERNET_KEY=${FERNET_KEY}
+      - EXECUTOR=${EXECUTOR}
+    command: scheduler
+
+  worker:
+    image: custom-airflow
+    restart: always
+    depends_on:
+      - scheduler
+    volumes:
+      - ./dags:/usr/local/airflow/dags
+    environment:
+      - FERNET_KEY=${FERNET_KEY}
+      - EXECUTOR=${EXECUTOR}
+    command: worker
+

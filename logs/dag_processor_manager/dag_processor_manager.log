@@ -1,0 +1,355 @@
+[2025-03-21T11:40:12.621+0000] {manager.py:483} INFO - Processing files using up to 2 processes at a time 
+[2025-03-21T11:40:12.623+0000] {manager.py:484} INFO - Process each file at most once every 30 seconds
+[2025-03-21T11:40:12.624+0000] {manager.py:485} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2025-03-21T11:40:12.625+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-03-21T11:40:12.801+0000] {manager.py:824} INFO - There are 58 files in /opt/airflow/dags
+[2025-03-21T11:40:13.042+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                            PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run      Last # of DB Queries
+---------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  ----------  ----------------------
+/opt/airflow/dags/main.py                                                                                                             70  0.11s             0           0                                                   0
+/home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_inlet_event_extra.py                                   71  0.05s             0           0                                                   0
+/home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial.py                                                                          0           0                                                   0
+/home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py                                                            0           0                                                   0
+/home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_python_decorator.py                                                          0           0                                                   0
+/home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_api.py                                                             0           0                                                   0
+/home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_subdag_operator.py                                                           0           0                                                   0
+/home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_decorator.py                                                            0           0                                                   0
+/home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_time_delta_sensor_async.py                                                   0           0                                                   0
+/home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py                                                          0           0                                                   0
+/home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_api_virtualenv.py                                                  0           0                                                   0
+/home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py                                                           0           0                                                   0
+/home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_dataset_alias.py                                                             0           0                                                   0
+/home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py                                                                0           0                                                   0
+/home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_kubernetes_executor.py                                                       0           0                                                   0
+/home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py                                                                   0           0                                                   0
+/home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py                                                               0           0                                                   0
+/home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown_taskflow.py                                                   0           0                                                   0
+/home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_outlet_event_extra.py                                                        0           0                                                   0
+/home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_short_circuit_decorator.py                                                   0           0                                                   0
+/home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_short_circuit_operator.py                                                    0           0                                                   0
+/home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                                  0           0                                                   0
+/home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_branch_datetime_operator.py                                                  0           0                                                   0
+/home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_trigger_target_dag.py                                                        0           0                                                   0
+/home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                                  0           0                                                   0
+/home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_dynamic_task_mapping_with_no_taskflow_operators.py                           0           0                                                   0
+/home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py                                                                   0           0                                                   0
+/home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py                                                                      0           0                                                   0
+/home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_workday_timetable.py                                                         0           0                                                   0
+/home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_datasets.py                                                                  0           0                                                   0
+/home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py                                                                  0           0                                                   0
+/home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py                                               0           0                                                   0
+/home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_dataset_alias_with_no_taskflow.py                                            0           0                                                   0
+/home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py                                                              0           0                                                   0
+/home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                                    0           0                                                   0
+/home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_dynamic_task_mapping.py                                                      0           0                                                   0
+/home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                                           0           0                                                   0
+/home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                                              0           0                                                   0
+/home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_complex.py                                                                   0           0                                                   0
+/home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py                                                             0           0                                                   0
+/home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_branch_operator.py                                                           0           0                                                   0
+/home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_dag_decorator.py                                                             0           0                                                   0
+/home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_params_ui_tutorial.py                                                        0           0                                                   0
+/home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py                                                             0           0                                                   0
+/home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py                                                         0           0                                                   0
+/home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py                                                            0           0                                                   0
+/home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py                                                 0           0                                                   0
+/home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_branch_operator_decorator.py                                                 0           0                                                   0
+/home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py                                                                      0           0                                                   0
+/home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_task_group_decorator.py                                                      0           0                                                   0
+/home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_xcomargs.py                                                                  0           0                                                   0
+/home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py                                                         0           0                                                   0
+/home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py                                                       0           0                                                   0
+/home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/subdags/subdag.py                                                                    0           0                                                   0
+/home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/plugins/event_listener.py                                                            0           0                                                   0
+/home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py                                                           0           0                                                   0
+/home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/plugins/decreasing_priority_weight_strategy.py                                       0           0                                                   0
+/home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py                                                                   0           0                                                   0
+================================================================================
+[2025-03-21T11:40:43.228+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                          PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_inlet_event_extra.py                                                         2           0  2.27s           2025-03-21T11:40:15                      15
+/home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_datasets.py                                                                 10           0  1.78s           2025-03-21T11:40:21                      49
+/home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_dataset_alias.py                                                             4           0  1.67s           2025-03-21T11:40:18                      27
+/home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_dataset_alias_with_no_taskflow.py                                            4           0  1.52s           2025-03-21T11:40:21                      27
+/home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_outlet_event_extra.py                                                        3           0  1.38s           2025-03-21T11:40:19                      19
+/home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_decorator.py                                                            1           0  0.75s           2025-03-21T11:40:15                      32
+/opt/airflow/dags/main.py                                                                                                                                   1           0  0.68s           2025-03-21T11:40:13                      34
+/home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_branch_operator_decorator.py                                                 1           0  0.66s           2025-03-21T11:40:24                      34
+/home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_python_decorator.py                                                          1           0  0.55s           2025-03-21T11:40:14                      32
+/home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_dag_decorator.py                                                             1           0  0.54s           2025-03-21T11:40:23                      32
+/home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py                                                           1           0  0.48s           2025-03-21T11:40:16                      32
+/home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_api_virtualenv.py                                                  1           0  0.44s           2025-03-21T11:40:16                      32
+/home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_branch_operator.py                                                           1           0  0.39s           2025-03-21T11:40:22                      34
+/home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_subdag_operator.py                                                           3           0  0.36s           2025-03-21T11:40:15                      20
+/home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_time_delta_sensor_async.py                                                   1           0  0.36s           2025-03-21T11:40:15                      10
+/home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py                                               1           0  0.33s           2025-03-21T11:40:20                      12
+/home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py                                                 1           0  0.32s           2025-03-21T11:40:23                      10
+/home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_templates.py                                                       1           0  0.30s           2025-03-21T11:40:24                      12
+/home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial.py                                                                          1           0  0.30s           2025-03-21T11:40:13                      12
+/home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py                                                                1           0  0.30s           2025-03-21T11:40:16                      10
+/home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown_taskflow.py                                                   1           0  0.29s           2025-03-21T11:40:17                      10
+/home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_api.py                                                             1           0  0.28s           2025-03-21T11:40:14                      10
+/home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_branch_datetime_operator.py                                                  3           0  0.28s           2025-03-21T11:40:19                      18
+/home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py                                                          1           0  0.27s           2025-03-21T11:40:16                      10
+/home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py                                                                      1           0  0.26s           2025-03-21T11:40:24                      12
+/home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py                                                         1           0  0.25s           2025-03-21T11:40:23                      12
+/home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_kubernetes_executor.py                                                       1           0  0.25s           2025-03-21T11:40:17                      10
+/home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_task_group_decorator.py                                                      1           0  0.24s           2025-03-21T11:40:24                      10
+/home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py                                                             1           0  0.24s           2025-03-21T11:40:23                      12
+/home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py                                                         1           0  0.22s           2025-03-21T11:40:24                      10
+/home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py                                                            1           0  0.22s           2025-03-21T11:40:14                      10
+/home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_workday_timetable.py                                                         1           0  0.22s           2025-03-21T11:40:19                      12
+/home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py                                                               1           0  0.22s           2025-03-21T11:40:17                      12
+/home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py                                                                   1           0  0.21s           2025-03-21T11:40:17                      12
+/home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_params_ui_tutorial.py                                                        1           0  0.21s           2025-03-21T11:40:23                      10
+/home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py                                                             1           0  0.21s           2025-03-21T11:40:22                      12
+/home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_complex.py                                                                   1           0  0.21s           2025-03-21T11:40:22                      10
+/home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_short_circuit_operator.py                                                    1           0  0.20s           2025-03-21T11:40:18                      10
+/home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py                                                            1           0  0.20s           2025-03-21T11:40:23                      10
+/home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py                                                                   1           0  0.20s           2025-03-21T11:40:19                      10
+/home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_short_circuit_decorator.py                                                   1           0  0.19s           2025-03-21T11:40:18                      10
+/home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                                  2           0  0.19s           2025-03-21T11:40:18                      13
+/home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py                                                              1           0  0.19s           2025-03-21T11:40:21                      10
+/home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py                                                                   0           0  0.19s           2025-03-21T11:40:25                       3
+/home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                                              1           0  0.18s           2025-03-21T11:40:22                      12
+/home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                                  1           0  0.18s           2025-03-21T11:40:19                      12
+/home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                                    1           0  0.18s           2025-03-21T11:40:22                      12
+/home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                                           1           0  0.18s           2025-03-21T11:40:22                      12
+/home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py                                                                      1           0  0.18s           2025-03-21T11:40:19                      10
+/home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_dynamic_task_mapping_with_no_taskflow_operators.py                           1           0  0.17s           2025-03-21T11:40:19                      10
+/home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/plugins/decreasing_priority_weight_strategy.py                                       0           0  0.17s           2025-03-21T11:40:24                       3
+/home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py                                                                  1           0  0.17s           2025-03-21T11:40:20                      12
+/home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_trigger_target_dag.py                                                        1           0  0.16s           2025-03-21T11:40:19                      10
+/home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_dynamic_task_mapping.py                                                      1           0  0.15s           2025-03-21T11:40:22                      10
+/home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py                                                           0           0  0.12s           2025-03-21T11:40:24                       3
+/home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_xcomargs.py                                                                  2           0  0.12s           2025-03-21T11:40:24                      13
+/home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/plugins/event_listener.py                                                            0           0  0.11s           2025-03-21T11:40:24                       3
+/home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/subdags/subdag.py                                                                    0           0  0.10s           2025-03-21T11:40:24                       3
+================================================================================
+[2025-03-21T11:41:00.208+0000] {manager.py:465} INFO - Exiting gracefully upon receiving signal 15
+[2025-03-21T12:12:30.219+0000] {manager.py:483} INFO - Processing files using up to 2 processes at a time 
+[2025-03-21T12:12:30.221+0000] {manager.py:484} INFO - Process each file at most once every 30 seconds
+[2025-03-21T12:12:30.221+0000] {manager.py:485} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2025-03-21T12:12:30.222+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-03-21T12:12:30.265+0000] {manager.py:824} INFO - There are 1 files in /opt/airflow/dags
+[2025-03-21T12:12:30.364+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                    PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run      Last # of DB Queries
+-------------------------  -----  ---------  --------  ----------  --------------  ----------  ----------------------
+/opt/airflow/dags/main.py    167  0.03s             0           0                                                   0
+================================================================================
+[2025-03-21T12:13:00.704+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                    PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/main.py    172  0.01s             1           0  0.21s           2025-03-21T12:12:30                      11
+================================================================================
+[2025-03-21T12:13:31.173+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                    PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/main.py    219  0.00s             1           0  0.40s           2025-03-21T12:13:01                      34
+================================================================================
+[2025-03-21T12:14:01.585+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                    PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/main.py    224  0.00s             1           0  0.25s           2025-03-21T12:13:31                      34
+================================================================================
+[2025-03-21T12:14:32.018+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                    PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/main.py    229  0.00s             1           0  0.25s           2025-03-21T12:14:01                      34
+================================================================================
+[2025-03-21T12:15:02.707+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                    PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/main.py    255  0.00s             1           0  0.28s           2025-03-21T12:14:32                      34
+================================================================================
+[2025-03-21T12:15:33.120+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                    PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/main.py    260  0.00s             1           0  0.23s           2025-03-21T12:15:02                      34
+================================================================================
+[2025-03-21T12:16:03.570+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                    PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/main.py    265  0.00s             1           0  0.26s           2025-03-21T12:15:33                      34
+================================================================================
+[2025-03-21T12:16:34.022+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                    PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/main.py    270  0.00s             1           0  0.25s           2025-03-21T12:16:03                      34
+================================================================================
+[2025-03-21T12:17:04.365+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                    PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/main.py    275  0.00s             1           0  0.25s           2025-03-21T12:16:34                      34
+================================================================================
+[2025-03-21T12:17:30.637+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-03-21T12:17:30.717+0000] {manager.py:824} INFO - There are 1 files in /opt/airflow/dags
+[2025-03-21T12:17:34.803+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                    PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/main.py    280  0.00s             1           0  0.25s           2025-03-21T12:17:04                      34
+================================================================================
+[2025-03-21T12:18:05.281+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                    PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/main.py    285  0.00s             1           0  0.25s           2025-03-21T12:17:35                      34
+================================================================================
+[2025-03-21T12:18:35.719+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                    PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/main.py    290  0.01s             1           0  0.29s           2025-03-21T12:18:05                      34
+================================================================================
+[2025-03-21T12:19:06.292+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                    PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/main.py    295  0.00s             1           0  0.26s           2025-03-21T12:18:35                      34
+================================================================================
+[2025-03-21T12:19:36.652+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                    PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/main.py    300  0.01s             1           0  0.28s           2025-03-21T12:19:06                      34
+================================================================================
+[2025-03-21T12:20:06.933+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/main.py                           1           0  0.29s           2025-03-21T12:19:36                      34
+================================================================================
+[2025-03-21T12:20:16.735+0000] {manager.py:465} INFO - Exiting gracefully upon receiving signal 15
+[2025-03-21T12:21:05.964+0000] {manager.py:483} INFO - Processing files using up to 2 processes at a time 
+[2025-03-21T12:21:05.965+0000] {manager.py:484} INFO - Process each file at most once every 30 seconds
+[2025-03-21T12:21:05.966+0000] {manager.py:485} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2025-03-21T12:21:05.967+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-03-21T12:21:06.001+0000] {manager.py:824} INFO - There are 1 files in /opt/airflow/dags
+[2025-03-21T12:21:06.098+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                    PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run      Last # of DB Queries
+-------------------------  -----  ---------  --------  ----------  --------------  ----------  ----------------------
+/opt/airflow/dags/main.py    167  0.03s             0           0                                                   0
+================================================================================
+[2025-03-21T12:21:36.112+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/main.py                           1           0  0.80s           2025-03-21T12:21:06                      34
+================================================================================
+[2025-03-21T12:21:59.062+0000] {manager.py:465} INFO - Exiting gracefully upon receiving signal 15
+[2025-03-21T12:23:29.070+0000] {manager.py:483} INFO - Processing files using up to 2 processes at a time 
+[2025-03-21T12:23:29.072+0000] {manager.py:484} INFO - Process each file at most once every 30 seconds
+[2025-03-21T12:23:29.073+0000] {manager.py:485} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2025-03-21T12:23:29.073+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-03-21T12:23:29.132+0000] {manager.py:824} INFO - There are 1 files in /opt/airflow/dags
+[2025-03-21T12:23:29.269+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                    PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run      Last # of DB Queries
+-------------------------  -----  ---------  --------  ----------  --------------  ----------  ----------------------
+/opt/airflow/dags/main.py    167  0.05s             0           0                                                   0
+================================================================================
+[2025-03-21T12:23:59.526+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/main.py                           1           0  0.48s           2025-03-21T12:23:29                      34
+================================================================================
+[2025-03-21T12:24:29.556+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/main.py                           1           0  0.33s           2025-03-21T12:24:00                      34
+================================================================================
+[2025-03-21T12:24:59.851+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/main.py                           1           0  0.33s           2025-03-21T12:24:30                      34
+================================================================================
+[2025-03-21T12:25:30.395+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/main.py                           1           0  1.72s           2025-03-21T12:25:03                      34
+================================================================================
+[2025-03-21T12:26:00.764+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/main.py                           1           0  0.33s           2025-03-21T12:25:33                      34
+================================================================================
+[2025-03-21T12:26:31.227+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/main.py                           1           0  0.42s           2025-03-21T12:26:04                      34
+================================================================================
